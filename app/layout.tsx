@@ -24,5 +24,7 @@ export default function RootLayout({
 import './globals.css'
 
 export const metadata = {
-      generator: 'v0.dev'
-    };
+  title: 'Quiet Beauty Blog',
+  description: 'A blog about quiet beauty',
+  generator: 'v0.dev'
+};
