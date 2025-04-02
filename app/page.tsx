@@ -10,32 +10,32 @@ export default function Home() {
       <main className="min-h-screen bg-white">
         <div className="container mx-auto px-4 py-12 md:py-24">
           <header className="mb-16 md:mb-24">
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
               <h1 className="text-2xl font-light tracking-wider text-neutral-800">AESTHETICA</h1>
-              <nav>
-                <ul className="flex space-x-8">
-                  <li>
+              <nav className="w-full md:w-auto">
+                <ul className="flex flex-row md:flex-row w-full space-y-0 md:space-y-0 md:space-x-8 items-center">
+                  <li className="flex-1 md:flex-auto text-center">
                     <Link
                       href="#"
-                      className="text-sm uppercase tracking-widest text-neutral-500 hover:text-neutral-900 transition-colors relative group"
+                      className="text-sm uppercase tracking-widest text-neutral-500 hover:text-neutral-900 transition-colors relative group inline-block"
                     >
                       Gallery
                       <span className="absolute -bottom-1 left-0 w-0 h-px bg-neutral-800 transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
-                  <li>
+                  <li className="flex-1 md:flex-auto text-center">
                     <Link
                       href="#"
-                      className="text-sm uppercase tracking-widest text-neutral-500 hover:text-neutral-900 transition-colors relative group"
+                      className="text-sm uppercase tracking-widest text-neutral-500 hover:text-neutral-900 transition-colors relative group inline-block"
                     >
                       About
                       <span className="absolute -bottom-1 left-0 w-0 h-px bg-neutral-800 transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                   </li>
-                  <li>
+                  <li className="flex-1 md:flex-auto text-center">
                     <Link
                       href="#"
-                      className="text-sm uppercase tracking-widest text-neutral-500 hover:text-neutral-900 transition-colors relative group"
+                      className="text-sm uppercase tracking-widest text-neutral-500 hover:text-neutral-900 transition-colors relative group inline-block"
                     >
                       Contact
                       <span className="absolute -bottom-1 left-0 w-0 h-px bg-neutral-800 transition-all duration-300 group-hover:w-full"></span>
